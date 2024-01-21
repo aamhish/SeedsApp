@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F437D0E2B5C813D0050CD28 /* CreateChallengeStep2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F437D0A2B5C813D0050CD28 /* CreateChallengeStep2.swift */; };
+		9F437D0F2B5C813D0050CD28 /* CreateChallengeStep1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F437D0B2B5C813D0050CD28 /* CreateChallengeStep1.swift */; };
+		9F437D102B5C813D0050CD28 /* CreateChallengeStep3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F437D0C2B5C813D0050CD28 /* CreateChallengeStep3.swift */; };
+		9F437D112B5C813D0050CD28 /* CreateChallengeReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F437D0D2B5C813D0050CD28 /* CreateChallengeReview.swift */; };
+		9F437D132B5C81530050CD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F437D122B5C81530050CD28 /* Assets.xcassets */; };
+		9F437D152B5C90B70050CD28 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F437D142B5C90B70050CD28 /* PostViewModel.swift */; };
 		9FC337352B5C809D0016DF34 /* SeedsForRealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC337342B5C809D0016DF34 /* SeedsForRealApp.swift */; };
 		9FC337372B5C809D0016DF34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC337362B5C809D0016DF34 /* ContentView.swift */; };
-		9FC337392B5C809E0016DF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC337382B5C809E0016DF34 /* Assets.xcassets */; };
 		9FC3373C2B5C809E0016DF34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC3373B2B5C809E0016DF34 /* Preview Assets.xcassets */; };
 		9FC337462B5C809E0016DF34 /* SeedsForRealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC337452B5C809E0016DF34 /* SeedsForRealTests.swift */; };
 		9FC337502B5C809E0016DF34 /* SeedsForRealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC3374F2B5C809E0016DF34 /* SeedsForRealUITests.swift */; };
@@ -34,10 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F437D0A2B5C813D0050CD28 /* CreateChallengeStep2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChallengeStep2.swift; path = ../../SeedsAgain/CreateChallengeStep2.swift; sourceTree = "<group>"; };
+		9F437D0B2B5C813D0050CD28 /* CreateChallengeStep1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChallengeStep1.swift; path = ../../SeedsAgain/CreateChallengeStep1.swift; sourceTree = "<group>"; };
+		9F437D0C2B5C813D0050CD28 /* CreateChallengeStep3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChallengeStep3.swift; path = ../../SeedsAgain/CreateChallengeStep3.swift; sourceTree = "<group>"; };
+		9F437D0D2B5C813D0050CD28 /* CreateChallengeReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateChallengeReview.swift; path = ../../SeedsAgain/CreateChallengeReview.swift; sourceTree = "<group>"; };
+		9F437D122B5C81530050CD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SeedsAgain/Assets.xcassets; sourceTree = "<group>"; };
+		9F437D142B5C90B70050CD28 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		9FC337312B5C809D0016DF34 /* SeedsForReal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeedsForReal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC337342B5C809D0016DF34 /* SeedsForRealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedsForRealApp.swift; sourceTree = "<group>"; };
 		9FC337362B5C809D0016DF34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9FC337382B5C809E0016DF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC3373B2B5C809E0016DF34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FC337412B5C809E0016DF34 /* SeedsForRealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeedsForRealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC337452B5C809E0016DF34 /* SeedsForRealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedsForRealTests.swift; sourceTree = "<group>"; };
@@ -96,8 +106,13 @@
 			children = (
 				9FC337342B5C809D0016DF34 /* SeedsForRealApp.swift */,
 				9FC337362B5C809D0016DF34 /* ContentView.swift */,
-				9FC337382B5C809E0016DF34 /* Assets.xcassets */,
+				9F437D0D2B5C813D0050CD28 /* CreateChallengeReview.swift */,
+				9F437D0B2B5C813D0050CD28 /* CreateChallengeStep1.swift */,
+				9F437D0A2B5C813D0050CD28 /* CreateChallengeStep2.swift */,
+				9F437D0C2B5C813D0050CD28 /* CreateChallengeStep3.swift */,
+				9F437D122B5C81530050CD28 /* Assets.xcassets */,
 				9FC3373A2B5C809E0016DF34 /* Preview Content */,
+				9F437D142B5C90B70050CD28 /* PostViewModel.swift */,
 			);
 			path = SeedsForReal;
 			sourceTree = "<group>";
@@ -232,7 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FC3373C2B5C809E0016DF34 /* Preview Assets.xcassets in Resources */,
-				9FC337392B5C809E0016DF34 /* Assets.xcassets in Resources */,
+				9F437D132B5C81530050CD28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F437D0E2B5C813D0050CD28 /* CreateChallengeStep2.swift in Sources */,
+				9F437D152B5C90B70050CD28 /* PostViewModel.swift in Sources */,
+				9F437D0F2B5C813D0050CD28 /* CreateChallengeStep1.swift in Sources */,
 				9FC337372B5C809D0016DF34 /* ContentView.swift in Sources */,
+				9F437D102B5C813D0050CD28 /* CreateChallengeStep3.swift in Sources */,
 				9FC337352B5C809D0016DF34 /* SeedsForRealApp.swift in Sources */,
+				9F437D112B5C813D0050CD28 /* CreateChallengeReview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
